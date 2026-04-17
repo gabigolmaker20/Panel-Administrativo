@@ -10,6 +10,7 @@ React Router DOM	7.x	Navegación SPA (BrowserRouter, Routes, Route, NavLink)
 Tailwind CSS	3.x	Framework de estilos utility-first
 Lucide React	Latest	Iconografía moderna
 Google Fonts	—	Tipografías Syne + DM Sans
+
 📁 Estructura del Proyecto
 ```
 admin-panel/
