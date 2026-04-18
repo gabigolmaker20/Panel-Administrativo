@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { font-family: 'DM Sans', sans-serif; background-color: #0b0f1a; color: #e2e8f0; margin: 0; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0b0f1a; }
+::-webkit-scrollbar-thumb { background: #3732d0; border-radius: 3px; }
+
+.glass { background: rgba(255,255,255,0.04); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+.glass-hover:hover { background: rgba(255,255,255,0.07); border-color: rgba(116,136,252,0.3); transition: all 0.2s ease; }
+.nav-active { background: rgba(85,98,246,0.2); color: #7488fc; border-color: rgba(85,98,246,0.4); }
+.gradient-text { background: linear-gradient(135deg,#7488fc,#a78bfa); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+.glow-brand { box-shadow: 0 0 30px rgba(85,98,246,0.15); }
+.glow-purple { box-shadow: 0 0 30px rgba(167,139,250,0.15); }
+.glow-cyan { box-shadow: 0 0 30px rgba(34,211,238,0.15); }
+.glow-emerald { box-shadow: 0 0 30px rgba(52,211,153,0.15); }
+.table-row-hover:hover { background: rgba(255,255,255,0.03); }
+.sidebar-item { display:flex; align-items:center; gap:0.75rem; padding:0.6rem 1rem; border-radius:0.5rem; border:1px solid transparent; color:#94a3b8; font-size:0.875rem; font-weight:500; cursor:pointer; transition:all 0.2s ease; text-decoration:none; }
+.sidebar-item:hover { color:#e2e8f0; background:rgba(255,255,255,0.05); }
