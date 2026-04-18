@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+PARTICIPANTES:
+Gabriel Vera - 2225618
+Angela Lozano - 2221913
+
+
 🛡️ AdminPanel — Panel Administrativo Web con React JS
 Proyecto desarrollado como taller práctico para la asignatura de Ingeniería de Sistemas e Informática, I Semestre 2025.
 📋 Descripción
